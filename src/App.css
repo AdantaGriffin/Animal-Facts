@@ -1,0 +1,51 @@
+#app{
+  background-image: url('./images/safari.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1{
+  height: 150px;
+  text-align: center;
+}
+blockquote{
+  height: 300px;
+  text-align: center;
+}
+#animals{
+  height: 300px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+button{
+  background: transparent;
+  width: 25%;
+  border: none;
+}
+#croc{
+  background-image: url('./images/saltwater-croc.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 40%;
+  position: relative;
+  top: 180px;
+  left: 20px;
+}
+#elephant{
+  background-image: url('./images/elephant.png');
+  background-size: cover;
+  background-repeat:round;
+  height: 100%;
+  width: 33%;
+}
+#hippo{
+  background-image: url('./images/hippo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 33%;
+  position: relative;
+  top: 30px;
+  left: 50px;
+}
