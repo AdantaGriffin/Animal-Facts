@@ -1,4 +1,4 @@
-#app{
+body{
   background-image: url('./images/safari.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -16,28 +16,31 @@ blockquote{
   text-align: center;
   display: flex;
   justify-content: space-evenly;
+  width: 100%;
 }
 button{
   background: transparent;
   width: 25%;
   border: none;
+  overflow: none;
 }
 #croc{
   background-image: url('./images/saltwater-croc.png');
   background-size: contain;
-  background-repeat: no-repeat;
-  height: 100%;
+  background-repeat: round;
+  height: 80%;
   width: 40%;
   position: relative;
-  top: 180px;
-  left: 20px;
+  top:60px;
 }
 #elephant{
   background-image: url('./images/elephant.png');
   background-size: cover;
   background-repeat:round;
-  height: 100%;
+  height: 175%;
   width: 33%;
+  position: relative;
+  bottom: 225px;
 }
 #hippo{
   background-image: url('./images/hippo.png');
@@ -46,6 +49,7 @@ button{
   height: 100%;
   width: 33%;
   position: relative;
-  top: 30px;
-  left: 50px;
+  right: 100px;
+  transform: scaleX(-1);
+  align-content: center;
 }

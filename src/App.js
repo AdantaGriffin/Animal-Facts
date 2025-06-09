@@ -20,11 +20,11 @@ function displayHippoFact(e){
   const factSection = document.getElementById('facts');
   factSection.innerHTML = choice;
 }
-
+let title = 'Safari Animal Facts';
 function App() {
   return (
     <div id='app'>
-      <h1>Ferocious Animal Facts</h1> 
+      <h1>{title ? title : 'Safari Animal Facts'}</h1> 
 
       <blockquote id='facts'>
         
